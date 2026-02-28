@@ -2,11 +2,13 @@
 using namespace std;
 main()
 {
-int first,second,total;
-cout<<"Enter 2 pointers: ";
-cin>>first;
-cout<<"Enter 3 pointer: ";
-cin>>second;
-total =;
-cout<<"Total points"<<total;
+int pointers1;
+int pointers2;
+int finalpoints;
+cout << "Enter  pointer1 score:";
+cin >> pointers1;
+cout << "Enter  pointer2 score:";
+cin >> pointers2;
+finalpoints = (pointers1 * 2) + (pointers2 * 3);
+cout << " final points score:"<<finalpoints;
 }
