@@ -9,7 +9,7 @@ int main()
     string names[size] = {"Ali", "Nasir", "Sara", "Hassan", "Ayesha", "Bilal", "Fatima"};
     int roll_num[size] = {101, 102, 103, 104, 105, 106, 107};
     int rooms[size] = {1, 2, 3, 4, 5, 6, 7};
-    bool fee_paid[size] = {true,true, true, true, true, true, true};
+    bool fee_paid[size] = {true, true, true, true, true, true, true};
 
     int total_students = 7;
 
@@ -50,11 +50,10 @@ int main()
         cout << "|--------------- Hostel Management System---------------|\n";
         cout << "|-------------------------------------------------------|\n";
 
-        system("cls");
         cout << "1. Add Student" << endl;
         cout << "2. View Students" << endl;
         cout << "3. Search Students" << endl;
-        cout << "4. Assing Room" << endl;
+        cout << "4. Assign Room" << endl;
         cout << "5. Fee Submit" << endl;
         cout << "6. Delete Student" << endl;
         cout << "7. Fine System" << endl;
@@ -66,7 +65,7 @@ int main()
 
         cout << "Enter choice: ";
         cin >> choice;
-
+        system("cls");
         // =====================================================
         //  1. ADD STUDENT
         // =====================================================
@@ -84,7 +83,7 @@ int main()
                 cout << "Enter Roll Number: ";
                 cin >> roll_num[total_students];
 
-                // idher check ho rha ka rollNum same to nhi kisi ka  
+                // idher check ho rha ka rollNum same to nhi kisi ka
                 bool exist = false;
                 for (int i = 0; i < total_students; i++)
                 {
