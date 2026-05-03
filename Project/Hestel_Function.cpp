@@ -7,8 +7,8 @@ using namespace std;
 void main_menu();
 void pause_screen();
 bool invalid();
-int find_student(int);
-bool room_taken(int);
+int find_student();
+bool room_taken();
 
 void add_student();
 void view_all();
